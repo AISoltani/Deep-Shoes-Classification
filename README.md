@@ -89,16 +89,16 @@ pip install -r requirements.txt
 The dataset consists of images of shoes, categorized into six classes. The data is split into training, validation, and test sets. You can use the provided split.py script to manage the dataset splits.
 
 ## Models Implemented
-**ResNet101:** A deep residual network suitable for complex image classification tasks.
-**EfficientNetB0:** A model optimized for efficiency with balanced scaling of depth, width, and resolution.
-**MobileNetV2:** Designed for mobile and embedded devices, lightweight and efficient.
-**Vision Transformers (ViT):** Processes images as sequences of patches with self-attention mechanisms.
-**DenseNet121:** Uses dense connections between layers for better feature reuse and efficient training.
-**YOLOv8-Ultralytics:** A model for real-time object detection adapted for classification tasks.
-Data Preprocessing & Augmentation
-**Preprocessing:** Images are resized to 224x224, normalized, and standardized.
-**Augmentation:** Various techniques such as rotation, flipping, color jittering, and noise addition are applied using both internal (PyTorch) and external (Albumentations) libraries.
-Training
+**ResNet101:** A deep residual network suitable for complex image classification tasks.  
+**EfficientNetB0:** A model optimized for efficiency with balanced scaling of depth, width, and resolution.  
+**MobileNetV2:** Designed for mobile and embedded devices, lightweight and efficient.  
+**Vision Transformers (ViT):** Processes images as sequences of patches with self-attention mechanisms.  
+**DenseNet121:** Uses dense connections between layers for better feature reuse and efficient training.  
+**YOLOv8-Ultralytics:** A model for real-time object detection adapted for classification tasks.  
+## Data Preprocessing & Augmentation
+**Preprocessing:** Images are resized to 224x224, normalized, and standardized.  
+**Augmentation:** Various techniques such as rotation, flipping, color jittering, and noise addition are applied using both internal (PyTorch) and external (Albumentations) libraries.  
+## Training
 The models are trained with early stopping, data augmentation, and evaluation metrics like accuracy, precision, recall, and F1-score. Training scripts are provided in the notebooks directory.
 
 ## Evaluation
@@ -107,12 +107,12 @@ The performance of the models is evaluated using accuracy, precision, recall, an
 ## Results
 A comparative analysis of the models shows the following performance:
 
-**VisionTransformer:** Best overall performance with highest accuracy (0.90).
-**ResNet101:** Strong performance with good balance across metrics.
-**DenseNet121:** High-performing with slightly less balance.
-**EfficientNetB0:** Moderate performance with room for improvement in certain classes.
-**MobileNetV2:** Lowest overall performance with significant variance in class performance.
-For detailed results, please refer to the notebooks directory.
+**VisionTransformer:** Best overall performance with highest accuracy (0.90).  
+**ResNet101:** Strong performance with good balance across metrics.  
+**DenseNet121:** High-performing with slightly less balance.  
+**EfficientNetB0:** Moderate performance with room for improvement in certain classes.  
+**MobileNetV2:** Lowest overall performance with significant variance in class performance.  
+For detailed results, please refer to the notebooks directory.  
 
 ## Future Work
 Ensemble Methods: Combining predictions from multiple models to improve overall performance.
