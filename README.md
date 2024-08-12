@@ -23,36 +23,40 @@ This repository contains a comprehensive deep learning project for shoe type cla
 This project implements shoe type classification using deep learning models with PyTorch and TensorFlow. The project explores various architectures, including ResNet, EfficientNet, MobileNetV2, Vision Transformers, DenseNet, and YOLOv8-Ultralytics. The dataset is processed, augmented, and used to train the models, followed by a comparative analysis of the results.
 
 ## Project Structure
+```
 shoes-type-classification/
 ├── data/
-│ ├── train/
-│ │ ├── class1/
-│ │ ├── class2/
-│ │ └── ...
-│ ├── val/
-│ │ ├── class1/
-│ │ ├── class2/
-│ │ └── ...
-│ └── test/
-│ ├── class1/
-│ ├── class2/
-│ └── ...
+│   ├── train/
+│   │   ├── class1/
+│   │   ├── class2/
+│   │   └── ...
+│   ├── val/
+│   │   ├── class1/
+│   │   ├── class2/
+│   │   └── ...
+│   └── test/
+│       ├── class1/
+│       ├── class2/
+│       └── ...
 ├── notebooks/
-│ ├── Classification-Deep-5-Model-With-Augment.ipynb
-│ ├── yolov8-CLS.ipynb
-│ └── ...
+│   ├── Classification-Deep-5-Model-With-Augment.ipynb
+│   ├── yolov8-CLS.ipynb
+│   └── ...
 ├── models/
-│ ├── ResNet101.pth
-│ ├── EfficientNetB0.pth
-│ ├── MobileNetV2.pth
-│ ├── VisionTransformer.pth
-│ ├── DenseNet121.pth
-│ └── YOLOv8.pth
+│   ├── ResNet101.pth
+│   ├── EfficientNetB0.pth
+│   ├── MobileNetV2.pth
+│   ├── VisionTransformer.pth
+│   ├── DenseNet121.pth
+│   └── YOLOv8.pth
 ├── utils/
-│ ├── split.py
-│ └── Augmentation.py
+│   ├── split.py
+│   └── Augmentation.py
 ├── README.md
 └── requirements.txt
+```
+
+
 
 
 ## Requirements
