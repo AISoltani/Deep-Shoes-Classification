@@ -1,6 +1,6 @@
 # Deep-Shoes-Classification
 <p align="center">
-  <img src="visiontransfer_output.png" alt="Shoe Classification Example" width="300"/>
+  <img src="visiontransfer_output.png" alt="Shoe Classification Example"  width="700" height="400"/>
 </p>
 
 Using deep Learning to classify the type of shoes
