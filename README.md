@@ -7,6 +7,7 @@ Using deep Learning to classify the type of shoes
 
 This repository contains a comprehensive deep learning project for shoe type classification using various models including ResNet, EfficientNet, MobileNetV2, Vision Transformers, DenseNet, and YOLOv8-Ultralytics.
 
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
